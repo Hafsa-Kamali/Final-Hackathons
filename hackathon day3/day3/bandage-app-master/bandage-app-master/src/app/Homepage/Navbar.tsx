@@ -109,7 +109,8 @@ const Navbar = ({ openNav }: Props) => {
             <FaRegUser className='mr-2' /><Link href="/Login">
                 Login/Register</Link>
                 <CiSearch className='text-lg' />
-                <BsCart3 />
+                <Link href="/Cart" className="text-2xl">
+                <BsCart3 className="text-2xl" /></Link>
                 <FaRegHeart />
             </div>
           </div>

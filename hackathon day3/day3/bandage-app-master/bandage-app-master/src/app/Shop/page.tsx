@@ -1,13 +1,13 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
-import ProductList from "@/app/BestProducts";
 import NavMobile from "../Homepage/MobileNav";
 import Navbar from "../Homepage/Navbar";
 import { BsFillGridFill } from "react-icons/bs";
 import { BsListCheck } from "react-icons/bs";
 import { IoIosArrowDown } from "react-icons/io";
 import Footer from "../Homepage/Footer";
+import ProductCards from "../Products/page";
 
 const ShopPage: React.FC = () => {
   const [showNav, setShowNav] = useState(false);
@@ -169,7 +169,7 @@ const ShopPage: React.FC = () => {
       <div className="mt-4 md:block hidden">
         <Footer />
       </div>
-    <ProductList/>
+   <ProductCards/>
     <div className="md:hidden block"> 
     <Footer />
     </div>

@@ -22,7 +22,9 @@ const Heropage = () => {
             <p className="text-white text-xl md:text-2xl mt-6 md:mt-14 max-w-[70%] md:max-w-[60%]">
               We know how large objects will act, but things on a small scale.
             </p>
-            <button className="bg-[#2DC071] text-white text-lg md:text-2xl font-bold py-3 px-8 md:py-4 md:px-10 mt-8 md:mt-14 hover:bg-white hover:text-[#2DC071] hover:shadow-black shadow-md">
+            <button
+              type="button"
+            className="bg-[#2DC071] text-white text-lg md:text-2xl font-bold py-3 px-8 md:py-4 md:px-10 mt-8 md:mt-14 hover:bg-white hover:text-[#2DC071] hover:shadow-black shadow-md">
               SHOP NOW
             </button>
           </div>

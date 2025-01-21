@@ -9,7 +9,7 @@ import FeaturedPosts from './Homepage/FeaturedBlog';
 import Navbar from './Homepage/Navbar';
 import NavMobile from './Homepage/MobileNav';
 import Footer from './Homepage/Footer';
-import App from './CartMain/page';
+import ProductCards from './Products/page';
 
 
 const Homepage = () => {
@@ -21,7 +21,7 @@ const Homepage = () => {
       <Navbar openNav={() => setShowNav(true)} />
       <Heropage/>
       <Products/>
-      <App/>
+ <ProductCards/>
       <Carasouel/>
       <NeuralUniverseSection/>
       <FeaturedPosts/>

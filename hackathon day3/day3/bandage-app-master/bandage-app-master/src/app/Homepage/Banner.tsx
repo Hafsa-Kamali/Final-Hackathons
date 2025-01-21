@@ -13,10 +13,14 @@ const NeuralUniverseSection: React.FC = () => {
           We know how large objects will act, but things on a small scale.
         </p>
         <div className="flex justify-center md:justify-start space-x-4">
-          <button className="bg-sky-500 text-white py-3 px-6 rounded-lg hover:bg-sky-400 transition">
+          <button
+            type="button"
+          className="bg-sky-500 text-white py-3 px-6 rounded-lg hover:bg-sky-400 transition">
             Buy Now
           </button>
-          <button className="border-2 border-sky-500 text-sky-500 py-3 px-6 rounded-lg hover:bg-sky-500 hover:text-white transition">
+          <button
+           type="button"
+          className="border-2 border-sky-500 text-sky-500 py-3 px-6 rounded-lg hover:bg-sky-500 hover:text-white transition">
             Read More
           </button>
         </div>
@@ -43,10 +47,14 @@ const NeuralUniverseSection: React.FC = () => {
           We know how large objects will act, but things on a small scale.
         </p>
         <div className="flex justify-center md:justify-start space-x-4">
-          <button className="bg-green-600 text-white py-3 px-6 rounded-lg hover:bg-emerald-500 transition">
+          <button 
+           type="button"
+          className="bg-green-600 text-white py-3 px-6 rounded-lg hover:bg-emerald-500 transition">
             Buy Now
           </button>
-          <button className="border-2 border-green-600 text-green-600 py-3 px-6 rounded-lg hover:bg-green-700 hover:text-white transition">
+          <button 
+           type="button"
+          className="border-2 border-green-600 text-green-600 py-3 px-6 rounded-lg hover:bg-green-700 hover:text-white transition">
             Read More
           </button>
         </div>
